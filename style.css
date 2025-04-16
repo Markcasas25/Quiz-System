@@ -1,0 +1,51 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: #351da0;
+    }
+    .app {
+        background: #ededf0;
+        width: 90%;
+        max-width: 600px;
+        margin: 100px auto 0;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .app h1 {
+        text-align: center;
+        font-size: 25px;
+        color: #351da0;
+        font-weight: 600;
+        border-bottom: 1px solid #351da0;
+        padding-bottom: 10px;
+    }
+    .quiz{
+        margin-top: 20px ;
+    }
+    .quiz h2 {
+        font-size: 18px;
+        color: #351da0;
+        font-weight: 600;   
+    }
+    .btn{
+        background-color: #ededf0;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        width: 100%;
+        border: 1px solid  #351da0;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: left;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .btn:hover{
+        background-color: #000000;
+        color: #ededf0;
+}
+

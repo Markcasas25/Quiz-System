@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Introduction</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .intro-container {
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+      text-align: center;
+    }
+    .intro-container h1 {
+      margin-bottom: 20px;
+    }
+    .intro-container p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .start-btn {
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .start-btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="intro-container" id="intro">
+    <h1>Welcome to the Quiz!</h1>
+    <p>Test your knowledge across a variety of topics. You’ll get instant feedback and a final score at the end. Click the button below to begin.</p>
+    <a href="index.html">
+        <button class="btn">Start</button>
+  </div>
+
+  <script>  
+    function startQuiz() {
+     
+      window.location.href = "quiz.html";
+    }
+  </script>
+
+</body>
+</html>
